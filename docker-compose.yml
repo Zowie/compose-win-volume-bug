@@ -1,0 +1,8 @@
+version: '2'
+services:
+  test:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./foo/test.txt:/tmp/bar/test.txt
